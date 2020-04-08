@@ -7,24 +7,30 @@ using namespace std;
 
 int main()
 {
-	int a,b; //declaro mis variables
+	int a,b,suma,resta,division,multiplicacion; //declaro mis variables
 	
 	cout << "Ingrese un muero : " << endl;
 	cin >> a;
 	cout << "Ingrese un numero : " << endl;
 	cin >> b;
 	
+	suma = a + b;
+	resta = a - b;
+	multiplicacion = a * b;
+	division = a / b;
+
 	cout << "El valor de a es: "<<a << endl;
 	cout << "El valor de b es: "<<b << endl;
 
-	cout << "la suma de a y b es: " <<a+b<< endl;
-	cout << "la resta de a y b es: " << a - b << endl;
-	cout << "la multiplicacion de a y b es: " <<a*b<< endl;
-	cout << "la division de a y b es: " << a / b << endl;
+	cout << "la suma de a y b es: " <<suma<< endl;
+	cout << "la resta de a y b es: " << resta << endl;
+	cout << "la multiplicacion de a y b es: " <<multiplicacion<< endl;
+	cout << "la division de a y b es: " <<division<< endl;
 
 
 	return 0;
 }
+
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
